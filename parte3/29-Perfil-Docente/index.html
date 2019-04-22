@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="../materialize/css/materialize.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil Docente</title>
+    <!-- <script type="text/javascript" src="../materialize/js/materialize.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+</head>
+<body class="#ae193e pink darken-4">
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+    </script><!--Escript de jquery para iniciar el select-->
+    <!-- <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">UTEC</a>
+        </div>
+    </nav> -->
+    <div class="container ">
+        <div class="row">
+                <div class="col s12 m12 l12">
+                </div>
+        </div>
+        <div class="row white z-depth-2">
+                <div class="col s12 m12 l12">
+                       <div class="card">
+                           <div class="card-action pink darken-4 white-text center">
+                               <h3>Perfil Docente</h3>
+                           </div>
+                           <div class="card-content">
+                                <div class="form-field">
+                                    <label for="Docente"><h5>Docente:</h5></label>
+                                    <select name="Docente" id="Docente">
+                                        <option value="1">Lic. Acevedo</option>
+                                        <option value="2">Ing. Cornejo</option>
+                                    </select>
+                                </div>
+                                <div class="form-field">
+                                    <label for="Confirmacio"><h5>Coordinador</h5></label>
+                                    <p>
+                                        <label>
+                                            <input name="group1" type="radio" checked/>
+                                            <span>Si</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input name="group1" type="radio"/>
+                                            <span>No</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <br/>
+                                <div class="form-field">
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                        <i class="material-icons right">cancel</i>
+                                    </button>
+                                </div>
+                           </div>
+                       </div>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
