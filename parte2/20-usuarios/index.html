@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+<script>
+
+  $(document).ready(function () {
+    $('.sidenav').sidenav();
+  });
+
+</script>
+
+<body>
+  <nav>
+    <div class="nav-wrapper #ae193e pink darken-4">
+      <a href="inicio.html" class="brand-logo"><i class="material-icons">home</i>Inicio</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="facultades.html">Facultades</a></li>
+        <li><a href="proveedores.html">Proveedores</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="usuarios.html">Usuarios</a></li>
+        <li><a href="tipodescripcion.html">Tipo Descripcion</a></li>
+        <li><a href="vehiculos.html">Vehiculos</a></li>
+        <li class="salir #000000 black"><a href="index.html"><i
+              class="material-icons right">power_settings_new</i>Salir</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="inicio.html"><i class="material-icons">home</i>Inicio</a></li>
+    <li><a href="facultades.html">Facultades</a></li>
+    <li><a href="proveedores.html">Proveedores</a></li>
+    <li><a href="perfil.html">Perfil</a></li>
+    <li><a href="usuarios.html">Usuarios</a></li>
+    <li><a href="tipodescripcion.html">Tipo Descripcion</a></li>
+    <li><a href="vehiculos.html">Vehiculos</a></li>
+    <li class="salir #000000 black"><a href="index.html"><span class="white-text "><i
+            class="material-icons right center">power_settings_new</i>Salir</span></a></li>
+  </ul><span class="blue-text text-darken-2"></span>
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <div class="container">
+    <h3>Añadir Usuario</h3>
+    <div class="card">
+      <div class="card-content">
+        <div class="form-field">
+          <label for="Escuela">
+            <h5>Rol:</h5>
+          </label>
+          <a class='dropdown-trigger btn blue' href='#' data-target='dropdown1'>Seleccionar Rol</a>
+
+          <!-- Dropdown Structure -->
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">three</a></li>
+            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+          </ul>
+        </div>
+        <div class="form-field">
+          <label for="Nombre">
+            <h5>Nombre: </h5>
+          </label>
+          <input type="text">
+        </div>
+        <div class="form-field">
+          <label for="Nombre">
+            <h5>Segundo Nombre: </h5>
+          </label>
+          <input type="text">
+        </div>
+        <div class="form-field">
+          <label for="Nombre">
+            <h5>Apellido: </h5>
+          </label>
+          <input type="text">
+        </div>
+        <div class="form-field">
+          <label for="Nombre">
+            <h5>Segundo Apellido: </h5>
+          </label>
+          <input type="text">
+        </div>
+        <div class="form-field">
+          <label for="Nombre">
+            <h5>Telefono: </h5>
+          </label>
+          <input type="text">
+        </div>
+        <div class="form-field">
+          <label for="Nombre">
+            <h5>Correo Electronico: </h5>
+          </label>
+          <input type="text">
+        </div>
+        <div class="form-field">
+          <label>
+            <h5>Genero:</h5>
+          </label>
+          <p>
+            <label>
+              <input name="group1" type="radio" checked />
+              <span>Femenino</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" />
+              <span>Masculino</span>
+            </label>
+          </p>
+        </div>
+        <br />
+        <div class="form-field">
+          <button class="btn waves-effect waves-light blue" type="submit" name="action">Guardar
+          </button>
+          <button class="btn waves-effect waves-light red" type="submit" name="action">Cancelar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems, options);
+    });
+
+    // Or with jQuery
+
+    $('.dropdown-trigger').dropdown();</script>
+</body>
+
+</html>
