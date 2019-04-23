@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+    <title>Contenido Guia</title>
+</head>
+<body class="#ae193e pink darken-4">
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('select').formSelect();
+        });
+    </script>
+    <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                </div>
+            </div>
+            <div class="row white z-depth-2">
+                <div class="col s12 m12 l12">
+                    <div class="card">
+                        <div class="card-action pink darken-4 white-text center">
+                            <h3>Contenido de Guia de Trabajo</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="form-field">
+                                <label for="Act"><h5>Actividad: </h5></label>
+                                <div class="input-filed">
+                                    <select name="Actividad" id="Actividad">
+                                        <option value="1">Actividad 1</option>
+                                        <option value="2">Actividad 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-field">
+                                <label for="Cont"><h5>Contenido: </h5></label>
+                                <textarea name="Contenido" id="Contenido" cols="30" rows="10"></textarea>
+                            </div><br>
+                            <div class="form-field">
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                        <i class="material-icons right">cancel</i>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

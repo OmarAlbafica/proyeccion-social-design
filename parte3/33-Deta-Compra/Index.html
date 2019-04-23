@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+    <title>Detalla Compra</title>
+</head>
+<body class="#ae193e pink darken-4">
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('select').formSelect();
+        });
+    </script>
+    <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                </div>
+            </div>
+            <div class="row white z-depth-2">
+                <div class="col s12 m12 l12">
+                    <div class="card">
+                        <div class="card-action pink darken-4 white-text center">
+                            <h3>Detalle Compra</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="form-field">
+                                <label for="Codigo"><h5>Codigo: 1010</h5></label>
+                            </div>
+                            <div class="form-field">
+                                <label for="Idp"><h5>Id Proveedor: </h5></label>
+                                <div class="input-field">
+                                    <select name="IdProveedor" id="IdProveedor" class="grey-text">
+                                        <option value="1">Proveedor 1</option>
+                                        <option value="2">Proveedor 2</option>
+                                        <option value="3">Proveedor 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-field">
+                                <label for="Descripcion"><h5>Descripcion: </h5></label>
+                                <textarea name="Desc" id="Desc" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-field">
+                                <label for="Descripcion"><h5>Caracteristicas: </h5></label>
+                                <textarea name="Car" id="Car" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-field">
+                                <label for="PI"><h5>Precio Iva: </h5></label>
+                                <input type="text">
+                            </div>
+                            <div class="form-filed">
+                                <label for="Obs"><h5>Observaciones: </h5></label>
+                                <textarea name="Obse" id="Obse" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-field">
+                                <label for="FirmaC"><h5>Firma del Coordinador: </h5></label>
+                                <p>
+                                    <label>
+                                        <input name="group1" type="radio" checked/>
+                                        <span>Si</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input name="group1" type="radio"/>
+                                        <span>No</span>
+                                    </label>
+                                </p>
+                            </div><br>
+                            <div class="form-field">
+                                <label for="FirmaC"><h5>Firma del Director: </h5></label>
+                                <p>
+                                    <label>
+                                        <input name="group2" type="radio" checked/>
+                                        <span>Si</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input name="group2" type="radio"/>
+                                        <span>No</span>
+                                        </label>
+                                    </p>
+                            </div><br>
+                            <div class="form-field">
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                        <i class="material-icons right">cancel</i>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

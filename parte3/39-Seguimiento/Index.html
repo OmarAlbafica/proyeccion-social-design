@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+    <title>Nuevo Seguimiento</title>
+</head>
+<body class="#ae193e pink darken-4">
+    <script type="text/javascript">
+         $(document).ready(function(){
+        $('select').formSelect();
+        });
+    </script>
+    <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                </div>
+            </div>
+            <div class="row white z-depth-2">
+                <div class="col s12 m12 l12">
+                    <div class="card">
+                        <div class="card-action pink darken-4 white-text center">
+                            <h3>Nuevo Seguimiento</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="form-field">
+                                <label for="guial"><h5>Guia: </h5></label>
+                                <h5>Jardin Botanico</h5>
+                            </div>
+                            <div class="form-field">
+                                    <label for="estudiantesl"><h5>Numero de estudaintes: </h5></label>
+                                    <input type="number" name="nestu" id="nestu" value="15">
+                            </div>
+                            <div class="form-field">
+                                    <label for="benefi"><h5>Numero de beneficiarios: </h5></label>
+                                    <input type="number" name="nestu" id="nestu" value="15">
+                            </div>
+                            <div class="form-field">
+                                    <label for="Docente"><h5>Docente Responsable: </h5></label>
+                                    <div class="input-field">
+                                        <select name="doc" id="doc">
+                                            <option value="1">Ing.Corenejo</option>
+                                            <option value="2">Ing. Acevedo</option>
+                                        </select>
+                                    </div>
+                            </div>
+                            <div class="form-field">
+                                <label for="descN"><h5>Descripcion: </h5></label>
+                                <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-field">
+                                    <label for="evid"><h5>Evidencia: </h5></label>
+                                    <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action"> Subir Archivo</button>
+                            </div><br>
+                            <div class="form-field">
+                                <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                    <i class="material-icons right">send</i>
+                                </button>
+                                <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Guardar
+                                    <i class="material-icons right">cancel</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
